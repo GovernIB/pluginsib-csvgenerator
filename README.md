@@ -1,2 +1,1 @@
 # pluginsib-csvgenerator
-pluginsib-csvgenerator
