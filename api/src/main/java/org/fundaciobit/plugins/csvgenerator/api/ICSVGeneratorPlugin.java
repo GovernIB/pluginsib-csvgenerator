@@ -2,7 +2,7 @@ package org.fundaciobit.plugins.csvgenerator.api;
 
 import java.util.Locale;
 
-import org.fundaciobit.plugins.IPlugin;
+import org.fundaciobit.pluginsib.core.IPlugin;
 
 /**
  * 

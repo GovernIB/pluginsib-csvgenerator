@@ -5,7 +5,7 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.fundaciobit.plugins.csvgenerator.api.ICSVGeneratorPlugin;
-import org.fundaciobit.plugins.utils.AbstractPluginProperties;
+import org.fundaciobit.pluginsib.core.utils.AbstractPluginProperties;
 
 import es.caib.arxiudigital.apirest.ApiArchivoDigital;
 import es.caib.arxiudigital.apirest.facade.pojos.CabeceraPeticion;
@@ -59,7 +59,7 @@ public class ArxiuCAIBCSVGeneratorPlugin extends AbstractPluginProperties implem
     String ignoreServerCertificates = getProperty(ARXIUCAIB_PROPERTY_BASE + "connection.ignoreservercertificates");
     
     if ("true".equals(ignoreServerCertificates)) {
-      org.fundaciobit.plugins.utils.XTrustProvider.install();
+      org.fundaciobit.pluginsib.core.utils.XTrustProvider.install();
     }
     
     CabeceraPeticion cabecera = new CabeceraPeticion();

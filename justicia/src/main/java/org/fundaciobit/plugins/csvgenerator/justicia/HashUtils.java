@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 
 import org.apache.log4j.Logger;
-import org.fundaciobit.plugins.utils.Base64;
+import org.fundaciobit.pluginsib.core.utils.Base64;
 
 /**
  * Clase de utilidad para la generacion y verificacion de codigos hash.
