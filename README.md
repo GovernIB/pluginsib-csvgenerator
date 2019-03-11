@@ -5,6 +5,6 @@
 
 Directori | Descripció | Documentació
 ------------ | ------------- | -------------
-arxiucaib | -- | -- 
-justicia | -- | --
+arxiucaib | Generador d'arxius en format CSV de arxiucaib | -- 
+justicia | Generador d'arxius en format CSV de justicia | --
 
