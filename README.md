@@ -14,6 +14,8 @@ La versió actual d'aquest plugin és la [pluginsib-csvgenerator-2.0](https://gi
 
 ***Documentació***
 
+[Documentació de branca](../../tree/pluginsib-csvgenerator-2.0#documentaci%C3%B3)
+
 **Enllaços**
 
 Plugin procedent de [pluginsib-1.0/plugins-csvgenerator](https://github.com/GovernIB/pluginsib/tree/pluginsib-1.0/plugins-csvgenerator).  
