@@ -11,6 +11,7 @@ Directori | Descripció | Documentació
 
 Directori | Descripció | Documentació
 ------------ | ------------- | -------------
+api | API de csvgenerator | --
 arxiucaib | Generador d'arxius en format CSV de arxiucaib | -- 
 justicia | Generador d'arxius en format CSV de justicia | --
 
