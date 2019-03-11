@@ -1,5 +1,5 @@
 # ![Logo](https://github.com/GovernIB/maven/raw/binaris/pluginsib/projectinfo_Attachments/icon.jpg) pluginsib-csvgenerator  (pluginsib-2.0)
-*Generador de codis de verificació*
+*API i Plugin generador de codis de verificació*
 
 ***Versions***
 
