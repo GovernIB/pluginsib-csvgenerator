@@ -23,24 +23,14 @@ public class ArxiuCAIBCSVGeneratorPlugin extends AbstractPluginProperties implem
 
   public static final String ARXIUCAIB_PROPERTY_BASE = CSVGENERATOR_PROPERTY_BASE + "arxiucaib.";
 
-  /**
-   * 
-   */
   public ArxiuCAIBCSVGeneratorPlugin() {
     super();
   }
 
-  /**
-   * @param propertyKeyBase
-   * @param properties
-   */
   public ArxiuCAIBCSVGeneratorPlugin(String propertyKeyBase, Properties properties) {
     super(propertyKeyBase, properties);
   }
 
-  /**
-   * @param propertyKeyBase
-   */
   public ArxiuCAIBCSVGeneratorPlugin(String propertyKeyBase) {
     super(propertyKeyBase);
   }
@@ -57,9 +47,10 @@ public class ArxiuCAIBCSVGeneratorPlugin extends AbstractPluginProperties implem
   public String generarCSV(String data, long currentTime, long randomNumber) throws Exception {
 
     String ignoreServerCertificates = getProperty(ARXIUCAIB_PROPERTY_BASE + "connection.ignoreservercertificates");
-    
     if ("true".equals(ignoreServerCertificates)) {
-      org.fundaciobit.pluginsib.core.utils.XTrustProvider.install();
+      throw new UnsupportedOperationException("La propietat [" + ignoreServerCertificates + "] ja no està soportada." +
+              "Si necessita connectar a un servidor SSL amb un certificat no reconegut per la JVM, " +
+              "incorpori'l al trustStore.");
     }
     
     CabeceraPeticion cabecera = new CabeceraPeticion();
